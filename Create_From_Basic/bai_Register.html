@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register</title>
+        <link rel="stylesheet" href="./Style_Register.css">
+    </head>
+    <body>
+        <main>
+            <table>
+                <tr>
+                    <th colspan="3" class="title">Student Registration</th>
+                </tr>
+                <tr>
+                    <td>Your Name</td>
+                    <td><input type="text" class="name" name="yourname"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth</td>
+                    <td><input type="text" class="date" name="dateofbirth"></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td><input type="radio" name="male">Male
+                        <input type="radio" name="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><input type="text" class="address" name="address"></input></td>
+                </tr>
+                <tr>
+                    <td>Class</td>
+                    <td>
+                        <select class="text-select">
+                            <option class="text" value="class">--Class--</option>
+                            <option value="1">Python</option>
+                            <option value="2">Java</option>
+                            <option value="3">PHP</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" class="box" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="number" class="box" name="phone"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" class="btn" name="submit" value="Submit Form" />
+                        <input type="reset" class="btn" name="rest" value="Reset Form" />
+                    </td>
+                </tr>
+
+            </table>
+        </main>
+
+    </body>
+</html>
