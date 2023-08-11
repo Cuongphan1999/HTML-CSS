@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6e58d;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse; 
+}
+table th, table td {
+   
+    padding: 8px ;
+}
+.title {
+    text-align: left;
+    color: #f73100;
+    background-color: #7ed6df;
+}
+.name {
+    width: 190px;
+    border-left: 2px inset #000000;
+    border-top: 2px inset #000000;
+    border-right: 1px inset #000000;
+    border-bottom: 1px inset #000000;
+}
+.date {
+    width: 150px;
+    border-left: 2px inset #000000;
+    border-top: 2px inset #000000;
+    border-right: 1px inset #000000;
+    border-bottom: 1px inset #000000;
+}
+.address { 
+    width: 170px;
+    height: 40px;
+    border-left: 2px inset #000000;
+    border-top: 2px inset #000000;
+    border-right: 1px inset #000000;
+    border-bottom: 1px inset #000000;
+}
+.text-select {
+    width: 150px;
+    border-left: 2px inset #000000;
+    border-top: 2px inset #000000;
+    border-right: 1px inset #000000;
+    border-bottom: 1px inset #000000;
+}
+select .text {
+    text-align: center;
+} 
+.box {
+    border-left: 2px inset #000000;
+    border-top: 2px inset #000000;
+    border-right: 1px inset #000000;
+    border-bottom: 1px inset #000000;
+}
+.btn {
+    background-color: #bdc3c7;
+}
