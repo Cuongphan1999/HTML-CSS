@@ -1,0 +1,48 @@
+table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+.title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #3498db;
+    font-size: 25px;
+}
+.week {
+    border: 1px solid white;
+}
+.calendar {
+    border: 1px solid rgb(7, 7, 7);
+    width: 80%;
+}
+.color_red_1 {
+    background-color: red;
+    color: white;
+}
+.color_Sun{
+    color: red;
+}
+.color_Sat{
+    color: blue;
+}
+.solar_calendar {
+    color: red;
+}
+.solar_calendar_1 {
+    color: blue;
+}
+.color_sub {
+    color: black;
+}
+.color_yellow {
+    color: white;
+    background-color: orange;
+}
+.color_blue {
+    color: white;
+    background-color: blue;
+}
+
+
