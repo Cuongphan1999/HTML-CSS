@@ -1,0 +1,73 @@
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.title {
+    
+    border-top: 2px ridge;
+    border-bottom: 1px dotted;
+}
+.text {
+    font-weight: bold;
+    
+}
+.option {
+    width: 300px;
+    font-weight: bold;
+}
+
+.dollar {
+    width: 50px;
+    border-left: 0.5px inset #bdc3c7;
+    border-top: 1px inset #7f8c8d;
+    border-right: 0.5px inset #bdc3c7;
+    border-bottom: 0.5px inset #bdc3c7;
+}
+.cent {
+    width: 20px;
+    border-left: 0.5px inset #bdc3c7;
+    border-top: 1px inset #7f8c8d;
+    border-right: 0.5px inset #bdc3c7;
+    border-bottom: 0.5px inset #bdc3c7;
+    
+}
+.synbol {
+    font-weight: bold;
+    font-size:15px;
+}
+.name-dollar {
+    padding-left: 13px;
+}
+.name-cent {
+    padding-left: 18px;
+}
+.text-product {
+    width: 80%;
+    border-left: 0.5px inset #bdc3c7;
+    border-top: 1px inset #7f8c8d;
+    border-right: 0.5px inset #bdc3c7;
+    border-bottom: 0.5px inset #bdc3c7;
+}
+.text_table {
+    font-size: 11px;
+    font-weight: bold;
+}
+.table_product {
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+.table_product tr:nth-child(odd) {
+    background-color: #ecf0f1;
+
+}
+.btn {
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: white;  
+    color: black;  
+    border: 1px solid #615f5f;
+   
+}
