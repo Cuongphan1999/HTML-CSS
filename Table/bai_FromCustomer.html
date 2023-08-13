@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>From Customer</title>
+        <link rel="stylesheet" href="./Style_FromCustomer.css">
+    </head>
+    <body>
+        <from class="form-group">
+            <div class="title">
+                <h2>Market Research Survey</h2>
+                <p>Please take a few moments to complete this satisfaction survey.</p>
+            </div>
+            <div>
+                <legend class="text">What is your age range?</legend>
+                <select class="option">
+                    <option>18 - 24</option>
+                    <option>25 - 34</option>
+                    <option>35 - 50</option>
+                    <option>50+</option>
+                </select> <br> <br>
+            </div>
+            <div>
+                <legend class="text"> What is your yearly income range?</legend>
+                <select class="option">
+                    <option>$0 - $25,000</option>
+                    <option>$25,001 - $50,000</option>
+                    <option>$50,001 - $100,000</option>
+                    <option>$100+</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <legend class="text">Gender Identity</legend>
+                <input type="radio" name="male" value="Male">
+                <label>Male</label> <br>
+                <input type="radio" name="female" value="Female">
+                <label>Female</label> <br>
+                <input type="radio" name="nonbinary" value="Nonbinary">
+                <label>Nonbinary</label> <br>
+                <input type="radio" name="other" value="Other">
+                <label>Other</label> <br>
+                <input type="text" name="text">
+            </div>
+            <div>
+                <legend class="text">Which of the following products have your purchased in
+                    the last 2 months. Please check all that apply.</legend>
+                <input type="checkbox" name="product1">
+                <label>Product1</label> <br>
+                <input type="checkbox" name="product2">
+                <label>Product2</label> <br>
+                <input type="checkbox" name="product3">
+                <label>Product3</label> <br>
+            </div>
+            <div>
+                <legend class="text">How often would you use our new product?</legend>
+                <input type="radio" name="daily">
+                <label>Daily</label> <br>
+                <input type="radio" name="weekly">
+                <label>Weekly</label> <br>
+                <input type="radio" name="monthly">
+                <label>Monthly</label> <br>
+            </div>
+            <div>
+                <legend class="text">What would you pay for the new product?</legend>
+                <span class="synbol">$</span>
+                <span><input class="dollar" type="text" name="dollars"></span>
+                <span class="synbol">.</span>
+                <input class="cent" type="text" name="cents">
+                <br>
+                <span class="name-dollar">Dollars</span>
+                <span class="name-cent">Cents</span>
+            </div>
+            <div>
+                <legend class="text">What features would you like to see in the new product.</legend>
+                <textarea class="text-product" name="newproduct" rows="4" cols="50"></textarea>
+
+            </div>
+            <div>
+                <legend class="text_table">Please rate your level of agreement with the following statements.</legend>
+                <table border="1" class="table_product">
+                    <tr>
+                        <td></td>
+                        <td>Strongly Disagree</td>
+                        <td>Disagree</td>
+                        <td>Agree</td>
+                        <td>Strongly Agree</td>
+                    </tr>
+                    <tr>
+                        <td class="text">Our products are priced fairly.</td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>4</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text">Our products are hight quality.</td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>4</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text">You would recommend our product to a friend of coworker</td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="click"><br>
+                            <label>4</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div>
+                <button class="btn" type="button" name="btn" value="button">Submit</button>
+            </div>
+        </from>
+
+    </body>
+</html>
