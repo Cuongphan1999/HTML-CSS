@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./Style_FromCustomer.css">
     </head>
     <body>
-        <from class="form-group">
+        <from class="form-group" action="/action_process.php" method="get">
             <div class="title">
                 <h2>Market Research Survey</h2>
                 <p>Please take a few moments to complete this satisfaction survey.</p>
@@ -15,57 +15,57 @@
             <div>
                 <legend class="text">What is your age range?</legend>
                 <select class="option">
-                    <option>18 - 24</option>
-                    <option>25 - 34</option>
-                    <option>35 - 50</option>
-                    <option>50+</option>
+                    <option name="year_odd" value="young">18 - 24</option>
+                    <option name="year_odd" value="young_plus">25 - 34</option>
+                    <option name="year_odd" value="matue">35 - 50</option>
+                    <option name="year_odd" value="old">50+</option>
                 </select> <br> <br>
             </div>
             <div>
                 <legend class="text"> What is your yearly income range?</legend>
                 <select class="option">
-                    <option>$0 - $25,000</option>
-                    <option>$25,001 - $50,000</option>
-                    <option>$50,001 - $100,000</option>
-                    <option>$100+</option>
+                    <option name="price" value="cheap">$0 - $25,000</option>
+                    <option name="price" value="medium">$25,001 - $50,000</option>
+                    <option name="price" value="medium_plus">$50,001 - $100,000</option>
+                    <option name="price" value="expensive">$100+</option>
                 </select>
             </div>
             <br>
             <div>
                 <legend class="text">Gender Identity</legend>
-                <input type="radio" name="male" value="Male">
+                <input type="radio" name="gender" value="male">
                 <label>Male</label> <br>
-                <input type="radio" name="female" value="Female">
+                <input type="radio" name="gender" value="female">
                 <label>Female</label> <br>
-                <input type="radio" name="nonbinary" value="Nonbinary">
+                <input type="radio" name="gender" value="nonbinary">
                 <label>Nonbinary</label> <br>
-                <input type="radio" name="other" value="Other">
+                <input type="radio" name="gender" value="Other">
                 <label>Other</label> <br>
-                <input type="text" name="text">
+                <input type="text" name="gender">
             </div>
             <div>
                 <legend class="text">Which of the following products have your purchased in
                     the last 2 months. Please check all that apply.</legend>
-                <input type="checkbox" name="product1">
+                <input type="checkbox" name="product1" value="prod_1">
                 <label>Product1</label> <br>
-                <input type="checkbox" name="product2">
+                <input type="checkbox" name="product2" value="prod_2">
                 <label>Product2</label> <br>
-                <input type="checkbox" name="product3">
+                <input type="checkbox" name="product2" value="prod_3">
                 <label>Product3</label> <br>
             </div>
             <div>
                 <legend class="text">How often would you use our new product?</legend>
-                <input type="radio" name="daily">
+                <input type="radio" name="new-prod" value="daily">
                 <label>Daily</label> <br>
-                <input type="radio" name="weekly">
+                <input type="radio" name="new-prod" value="weekly">
                 <label>Weekly</label> <br>
-                <input type="radio" name="monthly">
+                <input type="radio" name="new-prod" value="monthly">
                 <label>Monthly</label> <br>
             </div>
             <div>
                 <legend class="text">What would you pay for the new product?</legend>
                 <span class="synbol">$</span>
-                <span><input class="dollar" type="text" name="dollars"></span>
+                <span><input class="dollar" type="text" name="dollars" ></span>
                 <span class="synbol">.</span>
                 <input class="cent" type="text" name="cents">
                 <br>
@@ -90,57 +90,57 @@
                     <tr>
                         <td class="text">Our products are priced fairly.</td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="price_fairly" value="select_1"><br>
                             <label>1</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="price_fairly" value="select_2"><br>
                             <label>2</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="price_fairly" value="select_3"><br>
                             <label>3</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="price_fairly" value="select_4"><br>
                             <label>4</label>
                         </td>
                     </tr>
                     <tr>
                         <td class="text">Our products are hight quality.</td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="hight_quality" value="select_1"><br>
                             <label>1</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="hight_quality" value="select_2"><br>
                             <label>2</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="hight_quality" value="select_3"><br>
                             <label>3</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="hight_quality" value="select_4"><br>
                             <label>4</label>
                         </td>
                     </tr>
                     <tr>
                         <td class="text">You would recommend our product to a friend of coworker</td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="recomm_friend_coworker" value="select_1"><br>
                             <label>1</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="recomm_friend_coworker" value="select"><br>
                             <label>2</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="recomm_friend_coworker" value="select"><br>
                             <label>3</label>
                         </td>
                         <td>
-                            <input type="radio" name="click"><br>
+                            <input type="radio" name="recomm_friend_coworker" value="select"><br>
                             <label>4</label>
                         </td>
                     </tr>
@@ -148,7 +148,7 @@
             </div>
             <br>
             <div>
-                <button class="btn" type="button" name="btn" value="button">Submit</button>
+                <input class="btn" type="button" name="btn" value="button">Submit</input>
             </div>
         </from>
 
