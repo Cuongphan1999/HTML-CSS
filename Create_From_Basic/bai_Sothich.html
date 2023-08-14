@@ -7,42 +7,42 @@
         <link rel="stylesheet" href="./Style_Sothich.css">
     </head>
     <body>
-        <table>
+        <header></header>
+        <table action="/action_process.php" method="post">
             <tr class="title">
                 <th colspan="4">What is your hobby?</th>
             </tr>
             <tr>
                 <th>Your name</th>
-                <td colspan="3"><input type="text" id="text-border" name="yourname" /></td>
+                <td colspan="3"><input type="text" id="text-border" name="yourname"/></td>
             </tr>
             <tr>
                 <th>Email</th>
-                <td colspan="3"><input type="text" id="text-border1" name="email" /></td>
+                <td colspan="3"><input type="text" id="text-border1" name="email"/></td>
             </tr>
 
             <tr>
                 <th>Hobby</th>
-                <td><input type="checkbox" name="sport" /> Sport</td>
-                <td><input type="checkbox" name="music" /> Mucsic</td>
-                <td><input type="checkbox" name="readbook" /> Reading book</td>
+                <td><input type="checkbox" name="hobbys" value="sport"/> Sport</td>
+                <td><input type="checkbox" name="hobbys" value="Music"/> Music</td>
+                <td><input type="checkbox" name="hobbys" value="readbook"/> Reading book</td>
 
             </tr>
             <tr>
                 <td rowspan="3"></td>
-                <td><input type="checkbox" class="hobby" name="web" />Web</td>
-                <td><input type="checkbox" name="game" /> Game</td>
-                <td><input type="checkbox" name="movie" /> Movie</td>
+                <td><input type="checkbox" class="hobby" name="hobbys" value="web"/>Web</td>
+                <td><input type="checkbox" name="hobbys" value="game"/> Game</td>
+                <td><input type="checkbox" name="hobbys" value="movie"/> Movie</td>
             </tr>
             <tr>
 
                 <td><input type="checkbox" /> Travel</td>
             </tr>
             <tr>
-                <td><input type="submit" class="btn" name="submit"
-                        value="Submit Form" /></td>
-                <td><input type="reset" class="btn" name="rest"
-                        value="Reset Form" /></td>
+                <td><input type="submit" class="btn" name="submit" value="Submit Form"/></td>
+                <td><input type="reset" class="btn" name="rest" value="Reset Form"/></td>
             </tr>
         </table>
+    <footer></footer>
     </body>
 </html>
