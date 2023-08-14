@@ -17,30 +17,30 @@ table {
     border: 1px solid rgb(7, 7, 7);
     width: 80%;
 }
-.color_red_1 {
+.day_s {
     background-color: red;
     color: white;
 }
-.color_Sun{
+.c_sun{
     color: red;
 }
-.color_Sat{
+.c_sat{
     color: blue;
 }
-.solar_calendar {
+.solar_calendar_sun {
     color: red;
 }
-.solar_calendar_1 {
+.solar_calendar_sat {
     color: blue;
 }
 .color_sub {
     color: black;
 }
-.color_yellow {
+.day_y {
     color: white;
     background-color: orange;
 }
-.color_blue {
+.day_b {
     color: white;
     background-color: blue;
 }
