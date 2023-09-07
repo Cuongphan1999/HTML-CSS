@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 2fr);
+                grid-column-gap: 40px;
+                background-color: bisque;
+                padding: 30px;
+            }
+            .item {
+               padding: 19px;
+                text-align: center;
+                background-color: blueviolet;
+                
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> Sort the Items</h1>
+            <p>The items do not have to be displayed in the same order
+                as they are written in the HTML code.</p>
+        </header>
+        <main>
+            <div class="container">
+                <div class="item item-1">G</div>
+                <div class="item item-2">E</div>
+                <div class="item item-3">E</div>
+                <div class="item item-4">K</div>
+                <div class="item item-5">S</div>
+               
+            </div>
+        </main>
+    </body>
+</html>
