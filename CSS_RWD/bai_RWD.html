@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <style>
+        .row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            
+            gap: 10px;
+            text-align: center;
+        }
+        @media (max-width: 700px) {
+            .row {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 500px) {
+            .row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Responsive Image Gallery</h1>
+        <h4>Resize the browser window to see the effect.</h4>
+    </header>
+    <main>
+            <div class="row">
+                <div>
+                    <img src="./Assets/hinh1.PNG">
+                    <p>Add a description of the image here</p>
+                </div>
+                <div>
+                    <img src="./Assets/hinh2.PNG">
+                    <p>Add a description of the image here</p>
+                </div>
+                <div>
+                    <img src="./Assets/hinh3.PNG">
+                    <p>Add a description of the image here</p>
+                </div>
+                <div>
+                    <img src="./Assets/hinh4.PNG">
+                    <p>Add a description of the image here</p>
+                </div>
+            </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
