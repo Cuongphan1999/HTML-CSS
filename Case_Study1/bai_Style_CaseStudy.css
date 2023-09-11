@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: roboto condensed, helvetica, Helvetica, Arial, sans-serif;
+    font-family: condensed, helvetica, Helvetica, Arial, sans-serif;
 }
 
 .col-1 {
@@ -254,7 +254,7 @@ body {
     overflow: auto;
 }
 
-.container-sroll {
+.container-scroll {
     display: block;
     padding: 10px;
 }
@@ -300,9 +300,7 @@ body {
     padding: 0;
 }
 
-.box {
-    background-color: ;
-}
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
